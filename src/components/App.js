@@ -4,7 +4,7 @@ import './../styles/App.css';
 import Modal from "./Modal";
 
 const App = () => {
-  const [showModal,setshowModal] = useState(false);
+  const [showModal,setshowModal] = useState(true);
   return (
     <div>
         {/* Do not remove the main div */}
